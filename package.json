@@ -1,0 +1,18 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": " 结合sms的一些玩法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sms"
+  ],
+  "author": "desen",
+  "license": "ISC",
+  "dependencies": {
+    "@alicloud/sms-sdk": "^1.0.2",
+    "node-schedule": "^1.2.5"
+  }
+}
