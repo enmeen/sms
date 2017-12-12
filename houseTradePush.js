@@ -10,13 +10,13 @@ let getHouseInfo = require('./lib/getHouseInfo');
 // schedule 部分
 let schedule = require('node-schedule');
 
-schedule.scheduleJob('0 0 6 * * *', function () {
+schedule.scheduleJob('0 0 12 * * *', function () {
 	getHouseInfo((number) => {
 		let option = {
 			PhoneNumbers: '',
 			TemplateCode: 'SMS_116567016',
 			TemplateParam: {
-				code: 'HTYS新成交' + number
+				code: ' 荷塘新成交: ' + number + ' 套'
 			}
 		};
 		smsSdk(option);

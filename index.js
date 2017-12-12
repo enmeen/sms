@@ -7,7 +7,7 @@ function numberOfDate() {
 	let nowDate = +new Date();
 	return parseInt((nowDate - oldDate) / (1000 * 60 * 60 * 24));
 }
-schedule.scheduleJob('0 30 6 * * *', function () {
+schedule.scheduleJob('0 50 18 * * *', function () {
 	let option = {
 		PhoneNumbers: '',
 		TemplateCode: 'SMS_116562666',
