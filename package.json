@@ -13,6 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "@alicloud/sms-sdk": "^1.0.2",
+    "cheerio": "^1.0.0-rc.2",
+    "fetch": "^1.1.0",
     "node-schedule": "^1.2.5"
   }
 }

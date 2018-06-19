@@ -1,4 +1,4 @@
-console.log('开始运行。。。。');
+console.log('爱情长跑服务开始运行。。。。');
 let smsSdk = require('./lib/smsSdk');
 let schedule = require('node-schedule');
 

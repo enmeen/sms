@@ -40,9 +40,38 @@
     "@alicloud/dysmsapi" "^1.0.0"
     "@alicloud/mns" "^1.0.0-beta4"
 
+"@types/node@*":
+  version "10.3.4"
+  resolved "http://npm.f2e.mogujie.org/@types/node/download/@types/node-10.3.4.tgz#c74e8aec19e555df44609b8057311052a2c84d9e"
+
 bignumber.js@^4.0.0:
   version "4.1.0"
   resolved "http://npm.f2e.mogujie.org/bignumber.js/download/bignumber.js-4.1.0.tgz#db6f14067c140bd46624815a7916c92d9b6c24b1"
+
+biskviit@1.0.1:
+  version "1.0.1"
+  resolved "http://npm.f2e.mogujie.org/biskviit/download/biskviit-1.0.1.tgz#037a0cd4b71b9e331fd90a1122de17dc49e420a7"
+  dependencies:
+    psl "^1.1.7"
+
+boolbase@~1.0.0:
+  version "1.0.0"
+  resolved "http://npm.f2e.mogujie.org/boolbase/download/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
+
+cheerio@^1.0.0-rc.2:
+  version "1.0.0-rc.2"
+  resolved "http://npm.f2e.mogujie.org/cheerio/download/cheerio-1.0.0-rc.2.tgz#4b9f53a81b27e4d5dac31c0ffd0cfa03cc6830db"
+  dependencies:
+    css-select "~1.2.0"
+    dom-serializer "~0.1.0"
+    entities "~1.1.1"
+    htmlparser2 "^3.9.1"
+    lodash "^4.15.0"
+    parse5 "^3.0.1"
+
+core-util-is@~1.0.0:
+  version "1.0.2"
+  resolved "http://npm.f2e.mogujie.org/core-util-is/download/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
 cron-parser@^2.4.0:
   version "2.4.3"
@@ -50,6 +79,19 @@ cron-parser@^2.4.0:
   dependencies:
     is-nan "^1.2.1"
     moment-timezone "^0.5.0"
+
+css-select@~1.2.0:
+  version "1.2.0"
+  resolved "http://npm.f2e.mogujie.org/css-select/download/css-select-1.2.0.tgz#2b3a110539c5355f1cd8d314623e870b121ec858"
+  dependencies:
+    boolbase "~1.0.0"
+    css-what "2.1"
+    domutils "1.5.1"
+    nth-check "~1.0.1"
+
+css-what@2.1:
+  version "2.1.0"
+  resolved "http://npm.f2e.mogujie.org/css-what/download/css-what-2.1.0.tgz#9467d032c38cfaefb9f2d79501253062f87fa1bd"
 
 debug@^2.2.0, debug@^2.6.3:
   version "2.6.9"
@@ -64,9 +106,72 @@ define-properties@^1.1.1:
     foreach "^2.0.5"
     object-keys "^1.0.8"
 
+dom-serializer@0, dom-serializer@~0.1.0:
+  version "0.1.0"
+  resolved "http://npm.f2e.mogujie.org/dom-serializer/download/dom-serializer-0.1.0.tgz#073c697546ce0780ce23be4a28e293e40bc30c82"
+  dependencies:
+    domelementtype "~1.1.1"
+    entities "~1.1.1"
+
+domelementtype@1, domelementtype@^1.3.0:
+  version "1.3.0"
+  resolved "http://npm.f2e.mogujie.org/domelementtype/download/domelementtype-1.3.0.tgz#b17aed82e8ab59e52dd9c19b1756e0fc187204c2"
+
+domelementtype@~1.1.1:
+  version "1.1.3"
+  resolved "http://npm.f2e.mogujie.org/domelementtype/download/domelementtype-1.1.3.tgz#bd28773e2642881aec51544924299c5cd822185b"
+
+domhandler@^2.3.0:
+  version "2.4.2"
+  resolved "http://npm.f2e.mogujie.org/domhandler/download/domhandler-2.4.2.tgz#8805097e933d65e85546f726d60f5eb88b44f803"
+  dependencies:
+    domelementtype "1"
+
+domutils@1.5.1:
+  version "1.5.1"
+  resolved "http://npm.f2e.mogujie.org/domutils/download/domutils-1.5.1.tgz#dcd8488a26f563d61079e48c9f7b7e32373682cf"
+  dependencies:
+    dom-serializer "0"
+    domelementtype "1"
+
+domutils@^1.5.1:
+  version "1.7.0"
+  resolved "http://npm.f2e.mogujie.org/domutils/download/domutils-1.7.0.tgz#56ea341e834e06e6748af7a1cb25da67ea9f8c2a"
+  dependencies:
+    dom-serializer "0"
+    domelementtype "1"
+
+encoding@0.1.12:
+  version "0.1.12"
+  resolved "http://npm.f2e.mogujie.org/encoding/download/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
+  dependencies:
+    iconv-lite "~0.4.13"
+
+entities@^1.1.1, entities@~1.1.1:
+  version "1.1.1"
+  resolved "http://npm.f2e.mogujie.org/entities/download/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
+
+fetch@^1.1.0:
+  version "1.1.0"
+  resolved "http://npm.f2e.mogujie.org/fetch/download/fetch-1.1.0.tgz#0a8279f06be37f9f0ebb567560a30a480da59a2e"
+  dependencies:
+    biskviit "1.0.1"
+    encoding "0.1.12"
+
 foreach@^2.0.5:
   version "2.0.5"
   resolved "http://npm.f2e.mogujie.org/foreach/download/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
+
+htmlparser2@^3.9.1:
+  version "3.9.2"
+  resolved "http://npm.f2e.mogujie.org/htmlparser2/download/htmlparser2-3.9.2.tgz#1bdf87acca0f3f9e53fa4fcceb0f4b4cbb00b338"
+  dependencies:
+    domelementtype "^1.3.0"
+    domhandler "^2.3.0"
+    domutils "^1.5.1"
+    entities "^1.1.1"
+    inherits "^2.0.1"
+    readable-stream "^2.0.2"
 
 httpx@^2.1.1, httpx@^2.1.2:
   version "2.1.2"
@@ -74,11 +179,25 @@ httpx@^2.1.1, httpx@^2.1.2:
   dependencies:
     debug "^2.2.0"
 
+iconv-lite@~0.4.13:
+  version "0.4.23"
+  resolved "http://npm.f2e.mogujie.org/iconv-lite/download/iconv-lite-0.4.23.tgz#297871f63be507adcfbfca715d0cd0eed84e9a63"
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3"
+
+inherits@^2.0.1, inherits@~2.0.3:
+  version "2.0.3"
+  resolved "http://npm.f2e.mogujie.org/inherits/download/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
+
 is-nan@^1.2.1:
   version "1.2.1"
   resolved "http://npm.f2e.mogujie.org/is-nan/download/is-nan-1.2.1.tgz#9faf65b6fb6db24b7f5c0628475ea71f988401e2"
   dependencies:
     define-properties "^1.1.1"
+
+isarray@~1.0.0:
+  version "1.0.0"
+  resolved "http://npm.f2e.mogujie.org/isarray/download/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
 
 json-bigint@^0.2.3:
   version "0.2.3"
@@ -89,6 +208,10 @@ json-bigint@^0.2.3:
 kitx@^1.2.0, kitx@^1.2.1:
   version "1.3.0"
   resolved "http://npm.f2e.mogujie.org/kitx/download/kitx-1.3.0.tgz#ab3ee7c598d2b1d629fd55568f868c4440c200ea"
+
+lodash@^4.15.0:
+  version "4.17.10"
+  resolved "http://npm.f2e.mogujie.org/lodash/download/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
 long-timeout@0.1.1:
   version "0.1.1"
@@ -116,9 +239,49 @@ node-schedule@^1.2.5:
     long-timeout "0.1.1"
     sorted-array-functions "^1.0.0"
 
+nth-check@~1.0.1:
+  version "1.0.1"
+  resolved "http://npm.f2e.mogujie.org/nth-check/download/nth-check-1.0.1.tgz#9929acdf628fc2c41098deab82ac580cf149aae4"
+  dependencies:
+    boolbase "~1.0.0"
+
 object-keys@^1.0.8:
   version "1.0.11"
   resolved "http://npm.f2e.mogujie.org/object-keys/download/object-keys-1.0.11.tgz#c54601778ad560f1142ce0e01bcca8b56d13426d"
+
+parse5@^3.0.1:
+  version "3.0.3"
+  resolved "http://npm.f2e.mogujie.org/parse5/download/parse5-3.0.3.tgz#042f792ffdd36851551cf4e9e066b3874ab45b5c"
+  dependencies:
+    "@types/node" "*"
+
+process-nextick-args@~2.0.0:
+  version "2.0.0"
+  resolved "http://npm.f2e.mogujie.org/process-nextick-args/download/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
+
+psl@^1.1.7:
+  version "1.1.28"
+  resolved "http://npm.f2e.mogujie.org/psl/download/psl-1.1.28.tgz#4fb6ceb08a1e2214d4fd4de0ca22dae13740bc7b"
+
+readable-stream@^2.0.2:
+  version "2.3.6"
+  resolved "http://npm.f2e.mogujie.org/readable-stream/download/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
+  dependencies:
+    core-util-is "~1.0.0"
+    inherits "~2.0.3"
+    isarray "~1.0.0"
+    process-nextick-args "~2.0.0"
+    safe-buffer "~5.1.1"
+    string_decoder "~1.1.1"
+    util-deprecate "~1.0.1"
+
+safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+  version "5.1.2"
+  resolved "http://npm.f2e.mogujie.org/safe-buffer/download/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
+
+"safer-buffer@>= 2.1.2 < 3":
+  version "2.1.2"
+  resolved "http://npm.f2e.mogujie.org/safer-buffer/download/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
 
 sax@>=0.6.0:
   version "1.2.4"
@@ -127,6 +290,16 @@ sax@>=0.6.0:
 sorted-array-functions@^1.0.0:
   version "1.0.0"
   resolved "http://npm.f2e.mogujie.org/sorted-array-functions/download/sorted-array-functions-1.0.0.tgz#c0b554d9e709affcbe56d34c1b2514197fd38279"
+
+string_decoder@~1.1.1:
+  version "1.1.1"
+  resolved "http://npm.f2e.mogujie.org/string_decoder/download/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
+  dependencies:
+    safe-buffer "~5.1.0"
+
+util-deprecate@~1.0.1:
+  version "1.0.2"
+  resolved "http://npm.f2e.mogujie.org/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
 
 xml2js@^0.4.17:
   version "0.4.19"
